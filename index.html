@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <meta name="description" content="Professional portfolio showcasing web development skills, projects, and career guidance. Experienced in modern web technologies and design.">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Your Name - Portfolio">
+    <meta property="og:description" content="Professional portfolio showcasing web development skills, projects, and career guidance.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://Shishirkandel28.github.io/%">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/icons/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Your Name</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#career" class="nav-link">Career Guide</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                        <span class="theme-icon">🌙</span>
+                    </button>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Your Name</span></h1>
+                <p class="hero-subtitle">Professional Web Developer & Designer</p>
+                <p class="hero-description">Creating beautiful, functional websites and providing career guidance for aspiring developers.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/images/profile.jpg" alt="Your Name - Profile Picture" class="profile-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Learn more about my background and expertise</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate web developer with expertise in modern technologies and a love for creating innovative digital solutions. With years of experience in the field, I specialize in building responsive websites and providing career guidance to aspiring developers.</p>
+                    <p>My journey in web development started with curiosity and has evolved into a professional career where I help businesses establish their online presence while mentoring the next generation of developers.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>50+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h3>3+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h3>25+</h3>
+                            <p>Happy Clients</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Skills</h2>
+                <p class="section-subtitle">Technologies and tools I work with</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">💻</div>
+                    <h3>Frontend Development</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-percentage="90">
+                            <div class="progress-fill"></div>
+                        </div>
+                        <span class="progress-text">90%</span>
+                    </div>
+                    <p>HTML, CSS, JavaScript, React</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚙️</div>
+                    <h3>Backend Development</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-percentage="85">
+                            <div class="progress-fill"></div>
+                        </div>
+                        <span class="progress-text">85%</span>
+                    </div>
+                    <p>Node.js, Express, Databases</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3>UI/UX Design</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-percentage="80">
+                            <div class="progress-fill"></div>
+                        </div>
+                        <span class="progress-text">80%</span>
+                    </div>
+                    <p>Figma, Adobe XD, Responsive Design</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📱</div>
+                    <h3>Mobile Development</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-percentage="75">
+                            <div class="progress-fill"></div>
+                        </div>
+                        <span class="progress-text">75%</span>
+                    </div>
+                    <p>React Native, Flutter</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Projects</h2>
+                <p class="section-subtitle">Recent work and accomplishments</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/project1.jpg" alt="E-commerce Website">
+                    </div>
+                    <div class="project-content">
+                        <h3>E-commerce Platform</h3>
+                        <p>A full-stack e-commerce solution with modern design and seamless user experience.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-sm btn-outline">Live Demo</a>
+                            <a href="#" class="btn btn-sm btn-primary">View Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/project2.jpg" alt="Portfolio Website">
+                    </div>
+                    <div class="project-content">
+                        <h3>Portfolio Website</h3>
+                        <p>A responsive portfolio website showcasing creative work and professional achievements.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-sm btn-outline">Live Demo</a>
+                            <a href="#" class="btn btn-sm btn-primary">View Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/project3.jpg" alt="Task Management App">
+                    </div>
+                    <div class="project-content">
+                        <h3>Task Management App</h3>
+                        <p>A collaborative task management application with real-time updates and team features.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">Tailwind</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-sm btn-outline">Live Demo</a>
+                            <a href="#" class="btn btn-sm btn-primary">View Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Career Roadmap Section -->
+    <section id="career" class="career-roadmap">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Career Guidance</h2>
+                <p class="section-subtitle">Roadmaps for different tech career paths</p>
+            </div>
+            <div class="roadmap-grid">
+                <div class="roadmap-card">
+                    <div class="roadmap-icon" style="background-color: #FF6B6B;">🎨</div>
+                    <h3>Graphic Design</h3>
+                    <p>Create visual content for digital and print media, including logos, brochures, and brand identity.</p>
+                    <div class="roadmap-details">
+                        <div class="detail-item">
+                            <strong>Skills:</strong> Adobe Creative Suite, Typography, Color Theory
+                        </div>
+                        <div class="detail-item">
+                            <strong>Salary:</strong> $35,000 - $70,000
+                        </div>
+                        <div class="detail-item">
+                            <strong>Time to Learn:</strong> 6-12 months
+                        </div>
+                    </div>
+                </div>
+                <div class="roadmap-card">
+                    <div class="roadmap-icon" style="background-color: #4ECDC4;">📱</div>
+                    <h3>UI/UX Design</h3>
+                    <p>Design user interfaces and experiences for websites, mobile apps, and digital products.</p>
+                    <div class="roadmap-details">
+                        <div class="detail-item">
+                            <strong>Skills:</strong> Figma, Sketch, User Research, Prototyping
+                        </div>
+                        <div class="detail-item">
+                            <strong>Salary:</strong> $50,000 - $90,000
+                        </div>
+                        <div class="detail-item">
+                            <strong>Time to Learn:</strong> 8-18 months
+                        </div>
+                    </div>
+                </div>
+                <div class="roadmap-card">
+                    <div class="roadmap-icon" style="background-color: #45B7D1;">™️</div>
+                    <h3>Brand Identity Design</h3>
+                    <p>Develop comprehensive brand identities including logos, color schemes, and brand guidelines.</p>
+                    <div class="roadmap-details">
+                        <div class="detail-item">
+                            <strong>Skills:</strong> Brand Strategy, Logo Design, Style Guides
+                        </div>
+                        <div class="detail-item">
+                            <strong>Salary:</strong> $45,000 - $85,000
+                        </div>
+                        <div class="detail-item">
+                            <strong>Time to Learn:</strong> 10-24 months
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's discuss your next project</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>your.email@example.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Your City, Country</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Your Name</h3>
+                    <p>Professional Web Developer & Designer creating beautiful digital experiences.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Me</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="GitHub">GitHub</a>
+                        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                        <a href="#" aria-label="Twitter">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Your Name. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
